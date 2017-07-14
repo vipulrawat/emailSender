@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(238, 239, 241);
+}
+form{
+
+  font-size: 20px;
+  width: 40%;
+}
+input,textarea{
+  width: 100%;
+  height: 50px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  text-indent: 20px;
+  background-color: rgb(245, 245, 245);
+}
+label{
+  margin-bottom: 10px;
+}
+textarea{
+  height: 100px;
+  padding-top:  10px;
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+  transition: all ease-in 0.5s;
+}
+.btn{
+  width: 20%;
+}
+.sign{
+  font-size: 100px;
+}
+.mrgn{
+  margin-left: 10px;
+}
